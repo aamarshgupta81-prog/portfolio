@@ -1,6 +1,6 @@
 import React from "react";
 import { portfolioData } from "../data/mock";
-import { MapPin, ArrowDown } from "lucide-react";
+import { MapPin, ArrowDown, Download } from "lucide-react";
 
 const Hero = () => {
   const { personal } = portfolioData;
@@ -53,13 +53,24 @@ const Hero = () => {
               >
                 Get in Touch
               </a>
+              
+              {/* --- NEW RESUME BUTTON --- */}
+              <a
+                href="/resume.pdf"
+                download="Aamarsh_Gupta_Resume.pdf"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-white text-[#1B4332] text-sm font-medium rounded-lg border border-[#1B4332] hover:bg-[#f1f8f0] transition-colors duration-200"
+              >
+                <Download className="w-4 h-4" />
+                Resume
+              </a>
+              
               <a
                 href="#projects"
                 onClick={(e) => {
                   e.preventDefault();
                   document.querySelector("#projects")?.scrollIntoView({ behavior: "smooth" });
                 }}
-                className="inline-flex items-center gap-2 px-6 py-3 bg-white text-[#1B4332] text-sm font-medium rounded-lg border border-[#1B4332] hover:bg-[#f1f8f0] transition-colors duration-200"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-transparent text-[#588157] text-sm font-medium rounded-lg hover:bg-[#f1f8f0] transition-colors duration-200"
               >
                 View Projects
               </a>
