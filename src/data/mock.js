@@ -2,9 +2,7 @@ export const portfolioData = {
   personal: {
     name: "Aamarsh Gupta",
     title: "Assistant Sustainability Analyst",
-    bio: "Hello Visitor! I am a Sustainability Professional bridging the gap between modern-day projects and the environment. My work focuses on Green Building Design and Environmental Impact Assessment, where I utilize advanced simulation software to align projects with rigorous standards like LEED, IGBC, GRIHA, ASHRAE, and ISO.
-
-Beyond the building envelope, I am deeply invested in renewable energy systems, applying my background in hybrid energy grids to reduce carbon footprints. I am a lifelong learner and problem-solver, constantly honing my skills to bring data-driven insights that create spaces that inspire.",
+    bio: "Hello Visitor! I am a Sustainability Professional bridging the gap between modern-day projects and the environment. My work focuses on Green Building Design and Environmental Impact Assessment, where I utilize advanced simulation software to align projects with rigorous standards like LEED, IGBC, GRIHA, ASHRAE, and ISO. Beyond the building envelope, I am deeply invested in renewable energy systems, applying my background in hybrid energy grids to reduce carbon footprints. I am a lifelong learner and problem-solver, constantly honing my skills to bring data-driven insights that create spaces that inspire.",
     email: "aamarshgupta81@gmail.com",
     phone: "+91 95699 46290",
     linkedin: "https://www.linkedin.com/in/aamarsh-gupta/",
