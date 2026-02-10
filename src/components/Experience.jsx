@@ -37,9 +37,10 @@ const Experience = () => {
                     {/* Image */}
                     <div className="lg:w-48 flex-shrink-0">
                       <img
-                        src={exp.image}
-                        alt={exp.company}
-                        className="w-full h-36 lg:h-full object-cover rounded-lg"
+                        src={experience.icon} 
+                        alt={experience.company_name} 
+                        className="w-full h-full"  // Ensure width and height are full
+                        style={{ objectFit: "contain", backgroundColor: "white" }} // <--- PASTE THIS HERE/>
                       />
                     </div>
 
