@@ -1,0 +1,9 @@
+/* Global smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove default centered styles */
+.App {
+  min-height: 100vh;
+}
