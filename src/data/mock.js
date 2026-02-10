@@ -32,7 +32,7 @@ export const portfolioData = {
         "Author Green Building Feasibility Reports targeting Gold/Platinum ratings",
         "Vet construction materials against strict low-VOC and recycled content benchmarks",
       ],
-      image: "https://images.unsplash.com/photo-1556983852-43bf21186b2a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwzfHxzdXN0YWluYWJsZSUyMGFyY2hpdGVjdHVyZXxlbnwwfHx8fDE3NzA2MjU0NjJ8MA&ixlib=rb-4.1.0&q=85&w=600",
+      image: "https://img.sanishtech.com/u/5bb65deb2e14e15889bb62cf0051cb22.png",
     },
     {
       id: 2,
@@ -46,7 +46,7 @@ export const portfolioData = {
         "Engineered 12+ solar PV layouts with >95% site accuracy using Fusion360 and PVsyst",
         "Validated on-site execution against design models, resolving technical queries to support timely project completion",
       ],
-      image: "https://successive-salmon-jjekv0tt4l.edgeone.app/solar%20resi.jpg",
+      image: "https://img.sanishtech.com/u/f1719ec977b2a782853afca25ae690ea.png",
     },
     {
       id: 3,
@@ -60,7 +60,7 @@ export const portfolioData = {
         "Validated electrical safety by ensuring strict design compliance with Lightning Protection (LPS) and Earthing standards",
         "Developed commercial financial models (LCOE/ROI) and delivered 'As-Built' AutoCAD drawings for project handover",
       ],
-      image: "https://share.google/w0833h9GRvwcNyiiV",
+      image: "https://img.sanishtech.com/u/250bd8345c39a384583118739ef9f660.png",
     },
     {
       id: 4,
@@ -74,7 +74,7 @@ export const portfolioData = {
         "Designed a solar integration plan for 5-7% of electricity consumption using PVsyst simulations and Power BI",
         "Projected a 35% cost reduction for the energy segment over a 10-year horizon via strategic renewable adoption",
       ],
-      image: "https://share.google/f1uZj2PuZc6NKmsIO",
+      image: "https://img.sanishtech.com/u/14b0f3f09cbe3c0abf8860106f236586.jpg",
     },
   ],
 
