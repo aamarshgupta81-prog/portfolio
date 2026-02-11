@@ -165,7 +165,7 @@ export const portfolioData = {
 
   skills: {
     technical: [
-      { name: "Green Building Analysis", level: "Experienced" },
+      { name: "Green Building Analysiss", level: "Experienced" },
       { name: "Carbon Footprinting", level: "Intermediate" },
       { name: "Energy Modeling", level: "Beginner" },
     ],
