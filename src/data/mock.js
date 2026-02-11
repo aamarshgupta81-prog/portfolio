@@ -86,7 +86,7 @@ export const portfolioData = {
         institution: "Lovely Professional University",
         year: "2022-2026",
         Major: "Chemical Engineering",
-        WElective Minor: "Energy and Sustainability",
+        Minor: "Energy and Sustainability",
       },
     ],
     courses: [
