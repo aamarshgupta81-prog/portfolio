@@ -79,7 +79,9 @@ export const portfolioData = {
   ],
 
   qualifications: {
-    certifications: [],
+    // Kept this empty to prevent crash
+    certifications: [], 
+    
     education: [
       {
         degree: "Bachelor of Technology in Chemical Engineering",
@@ -111,7 +113,8 @@ export const portfolioData = {
         year: "2023",
       },
     ],
-    Certificates: [
+    // RENAMED BACK TO 'otherCertificates' TO FIX CRASH
+    otherCertificates: [
       {
         name: "Green Building Concepts Foundation",
         issuer: "Project Management Institute",
