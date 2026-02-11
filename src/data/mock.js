@@ -79,53 +79,29 @@ export const portfolioData = {
   ],
 
   qualifications: {
-    certifications: [
-      {
-        name: "LEED Green Associate",
-        issuer: "U.S. Green Building Council",
-        year: "2023",
-        credentialId: "GA-2023-11482",
-      },
-      {
-        name: "Certified Energy Auditor (CEA)",
-        issuer: "Association of Energy Engineers",
-        year: "2022",
-        credentialId: "CEA-0029841",
-      },
-      {
-        name: "WELL AP",
-        issuer: "International WELL Building Institute",
-        year: "2023",
-        credentialId: "WELL-AP-5581",
-      },
-    ],
+    certifications: [],
     education: [
       {
-        degree: "M.S. Environmental Science & Policy",
-        institution: "Portland State University",
-        year: "2022",
-        focus: "Sustainable Urban Development",
-      },
-      {
-        degree: "B.S. Architecture",
-        institution: "University of Oregon",
-        year: "2020",
-        focus: "Green Building Design",
+        degree: "Bachelor of Technology in Chemical Engineering",
+        institution: "Lovely Professional University",
+        year: "2022-2026",
+        Major: "Chemical Engineering",
+        WElective Minor: "Energy and Sustainability",
       },
     ],
     courses: [
       {
-        name: "Advanced Energy Modeling with EnergyPlus",
-        provider: "Building Performance Institute",
-        year: "2024",
-      },
-      {
-        name: "Circular Economy for the Built Environment",
-        provider: "Coursera / TU Delft",
+        name: "Energy Supply System for Buildings",
+        provider: "EDx/Delft University of Technology",
         year: "2023",
       },
       {
-        name: "Climate Risk Assessment for Buildings",
+        name: "Sustainable Architecture: Energy Efficiency & Quality",
+        provider: "Alison/IIT Roorkee",
+        year: "2024",
+      },
+      {
+        name: "Incorporating Renewable Energy in Electricity Grid",
         provider: "ASHRAE Learning Institute",
         year: "2023",
       },
