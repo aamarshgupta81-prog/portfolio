@@ -148,7 +148,7 @@ export const portfolioData = {
       title: "Sustainable Plastic-walled Classroom design",
       description: "Designed a 25 m² modular classroom using 320+ recycled PVC pipes and bottles to create a thermally regulated 'Bottle-Wall' envelope. Integrated a 1,000 L/day rainwater harvesting system and biogas unit, achieving a 60% lower water and energy footprint compared to conventional concrete structures.",
       tags: ["Circular Economy", "Waste-to-Value", "Climate-Adaptive", "Fusion360", "Hybrid Renewable Energy"],
-      image: "https://img.sanishtech.com/u/397b638cc9dc45727fe7a921ea9af917.png,
+      image: "https://img.sanishtech.com/u/397b638cc9dc45727fe7a921ea9af917.png",
       url: "https://drive.google.com/drive/folders/1xjPGsKNnI4jMypXEh1oAg-gGDBTY6NrD?usp=sharing",
     },
     {
