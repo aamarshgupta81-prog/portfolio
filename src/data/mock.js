@@ -111,7 +111,7 @@ export const portfolioData = {
         year: "2023",
       },
     ],
-    certificates: [
+    Certificates: [
       {
         name: "Green Building Concepts Foundation",
         issuer: "Project Management Institute",
