@@ -34,13 +34,13 @@ const Experience = () => {
                 {/* Card */}
                 <div className="bg-white border border-[#e8ede7] rounded-xl p-6 hover:border-[#a3b18a] hover:shadow-md transition-all duration-300">
                   <div className="flex flex-col lg:flex-row gap-6">
-                    {/* Image */}
-                    <div className="lg:w-48 flex-shrink-0">
+                    {/* Image - FIXED SECTION */}
+                    <div className="lg:w-48 h-32 flex-shrink-0 bg-white rounded-lg overflow-hidden border border-gray-100">
                       <img
-                        src={experience.icon} 
-                        alt={experience.company_name} 
-                        className="w-full h-full"  // Ensure width and height are full
-                        style={{ objectFit: "contain", backgroundColor: "white" }} // <--- PASTE THIS HERE/>
+                        src={exp.image} 
+                        alt={exp.company} 
+                        className="w-full h-full"
+                        style={{ objectFit: "contain", objectPosition: "center", backgroundColor: "white" }} 
                       />
                     </div>
 
