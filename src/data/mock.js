@@ -122,7 +122,6 @@ export const portfolioData = {
         issuer: "NPTEL/IIT Roorkee",
         year: "2023",
       },      
-      },
     ],
   },
 
