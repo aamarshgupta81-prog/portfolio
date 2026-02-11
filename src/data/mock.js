@@ -91,36 +91,37 @@ export const portfolioData = {
     ],
     courses: [
       {
-        name: "Energy Supply System for Buildings",
-        provider: "EDx/Delft University of Technology",
-        year: "2023",
-      },
-      {
         name: "Sustainable Architecture: Energy Efficiency & Quality",
         provider: "Alison/IIT Roorkee",
         year: "2024",
       },
       {
-        name: "Incorporating Renewable Energy in Electricity Grid",
-        provider: "ASHRAE Learning Institute",
-        year: "2023",
-      },
-    ],
-    otherCertificates: [
-      {
-        name: "First Aid & CPR Certified",
-        issuer: "American Red Cross",
+        name: "Energy Supply System for Buildings",
+        provider: "EDx/Delft University of Technology",
         year: "2024",
       },
       {
-        name: "OSHA 30-Hour Construction Safety",
-        issuer: "OSHA Training Institute",
-        year: "2022",
+        name: "Solar Energy for Engineer Architects and Code Inspector",
+        provider: "Coursera/University at Buffalo",
+        year: "2023",       
       },
       {
-        name: "Drone Pilot License (Part 107)",
-        issuer: "Federal Aviation Administration",
+        name: "Incorporating Renewable Energy in Electricity Grid",
+        provider: "EDx/Imperial College London",
         year: "2023",
+      },
+    ],
+    Certificates: [
+      {
+        name: "Green Building Concepts Foundation",
+        issuer: "Project Management Institute",
+        year: "2024",
+      },
+      {
+        name: "Waste-to-Energy Conservation",
+        issuer: "NPTEL/IIT Roorkee",
+        year: "2023",
+      },      
       },
     ],
   },
@@ -128,7 +129,7 @@ export const portfolioData = {
   projects: [
     {
       id: 1,
-      title: "EcoVista Office Complex",
+      title: "High-Performance Building Energy & Daylight Sim.",
       description: "Led the sustainability analysis for a 120,000 sq ft mixed-use development targeting LEED Platinum. Implemented daylighting optimization and green roof systems.",
       tags: ["LEED Platinum", "Commercial", "Daylighting"],
       image: "https://images.unsplash.com/photo-1556983852-43bf21186b2a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwzfHxzdXN0YWluYWJsZSUyMGFyY2hpdGVjdHVyZXxlbnwwfHx8fDE3NzA2MjU0NjJ8MA&ixlib=rb-4.1.0&q=85&w=800",
@@ -183,7 +184,7 @@ export const portfolioData = {
 
   interests: {
     title: "Off the Clock",
-    subtitle: "Where sustainability meets imagination",
+    subtitle: "Where my imagination meets the creation",
     items: [
       {
         name: "Fiction Writing",

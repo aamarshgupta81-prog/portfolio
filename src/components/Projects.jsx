@@ -25,10 +25,10 @@ const Projects = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="group bg-white border border-[#e8ede7] rounded-xl overflow-hidden hover:border-[#a3b18a] hover:shadow-lg transition-all duration-300"
+              className="flex flex-col h-full group bg-white border border-[#e8ede7] rounded-xl overflow-hidden hover:border-[#a3b18a] hover:shadow-lg transition-all duration-300"
             >
               {/* Image */}
-              <div className="relative h-52 overflow-hidden">
+              <div className="relative h-52 overflow-hidden flex-shrink-0">
                 <img
                   src={project.image}
                   alt={project.title}
@@ -38,16 +38,16 @@ const Projects = () => {
               </div>
 
               {/* Content */}
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-grow">
                 <h3 className="text-lg font-semibold text-[#1a1a1a] mb-2 group-hover:text-[#1B4332] transition-colors duration-200">
                   {project.title}
                 </h3>
-                <p className="text-sm text-[#4a4a4a] leading-relaxed mb-4">
+                <p className="text-sm text-[#4a4a4a] leading-relaxed mb-4 flex-grow">
                   {project.description}
                 </p>
 
                 {/* Tags */}
-                <div className="flex flex-wrap gap-2 mb-5">
+                <div className="flex flex-wrap gap-2 mb-6">
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
@@ -58,16 +58,20 @@ const Projects = () => {
                   ))}
                 </div>
 
-                {/* CTA */}
-                <a
-                  href={project.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-medium text-[#1B4332] border border-[#1B4332] rounded-lg hover:bg-[#1B4332] hover:text-white transition-all duration-200"
-                >
-                  View Project
-                  <ExternalLink className="w-3.5 h-3.5" />
-                </a>
+                {/* CTA - Only shows if URL exists */}
+                {project.url && (
+                  <div className="mt-auto">
+                    <a
+                      href={project.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-medium text-[#1B4332] border border-[#1B4332] rounded-lg hover:bg-[#1B4332] hover:text-white transition-all duration-200"
+                    >
+                      View Project
+                      <ExternalLink className="w-3.5 h-3.5" />
+                    </a>
+                  </div>
+                )}
               </div>
             </div>
           ))}
