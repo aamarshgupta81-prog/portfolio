@@ -85,8 +85,8 @@ export const portfolioData = {
         degree: "Bachelor of Technology in Chemical Engineering",
         institution: "Lovely Professional University",
         year: "2022-2026",
-        Focus: "Chemical Engineering",
-        Minor: "Energy and Sustainability",
+        focus: "Chemical Engineering",
+        minor: "Energy and Sustainability",
       },
     ],
     courses: [
@@ -103,7 +103,7 @@ export const portfolioData = {
       {
         name: "Solar Energy for Engineer Architects and Code Inspector",
         provider: "Coursera/University at Buffalo",
-        year: "2023",       
+        year: "2023",      
       },
       {
         name: "Incorporating Renewable Energy in Electricity Grid",
@@ -111,7 +111,7 @@ export const portfolioData = {
         year: "2023",
       },
     ],
-    Certificates: [
+    certificates: [
       {
         name: "Green Building Concepts Foundation",
         issuer: "Project Management Institute",
@@ -160,14 +160,11 @@ export const portfolioData = {
     },
   ],
 
-  // --- UPDATED SKILLS SECTION ---
   skills: {
     technical: [
       { name: "Green Building Analysis", level: "Experienced" },
       { name: "Carbon Footprinting", level: "Intermediate" },
       { name: "Energy Modeling", level: "Beginner" },
-      // You can add more here like:
-      // { name: "LEED Documentation", level: "Experienced" },
     ],
     software: [
       { name: "AutoCAD", level: "Experienced" },
