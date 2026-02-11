@@ -85,7 +85,7 @@ export const portfolioData = {
         degree: "Bachelor of Technology in Chemical Engineering",
         institution: "Lovely Professional University",
         year: "2022-2026",
-        Major: "Chemical Engineering",
+        Focus: "Chemical Engineering",
         Minor: "Energy and Sustainability",
       },
     ],
